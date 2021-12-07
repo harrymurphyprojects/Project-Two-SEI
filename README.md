@@ -1,3 +1,23 @@
+###DAY 01
+- home page
+- Navbar to navigate around
+Pages
+- Home Page, route url "/" - basic landing page
+- Index page, router url "/wines",- shows ALL the wines
+- Show page, router url "/wines/:wineId" , shows a SINGLE wine in more detail
+
+
+###DAY02
+- Error Handling on fetching, Show & Index page
+- Improve a Navbar, make it responsive
+
+- FILTERS
+- SORT
+
+- STYLING
+- PROFILE COMPARISONS (if we have time)
+
+
 # ![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png) GA London React Template
 
 ## Using NPM
