@@ -1,3 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
+
+
+.body {
+  font-family: 'Bangers', cursive;
+}
+
 .card {
   height: 100%;
   display:flex;
@@ -10,14 +17,6 @@
 .logo-emoji {
   margin: 0 10px;
 }
-
-// .form-link {
-//   margin-left: 3px;
-// }
-
-// span.logout {
-//   cursor: pointer;
-// }
 
 
 section.section {
@@ -46,10 +45,19 @@ width: 50px;}
   background-size: cover;
   background-position: center;
   text-shadow: black 2px 2px 4px;
+  font-family: 'Bangers', cursive;
+  letter-spacing: 2px;
 }
 
 
 .select {
 color: black;
 }
+
+.flex-row-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 @import '~bulma/bulma.sass';
