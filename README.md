@@ -2,54 +2,117 @@ Planning Stage
 Link to our excalidraw plan:
 
 https://excalidraw.com/#json=463qRv9TCXy_sEpanEslb,aw3FAi-c9CwBaVlQHoh2VA
+Project 2 Heroes & Villains README
 
-###DAY 01
-- home page
-- Navbar to navigate around
-Pages
-- Home Page, route url "/" - basic landing page
-- Index page, router url "/wines",- shows ALL the wines
-- Show page, router url "/wines/:wineId" , shows a SINGLE wine in more detail
+Table of Contents 
 
-
-###DAY02
-- Error Handling on fetching, Show & Index page
-- Improve a Navbar, make it responsive
-- Filters
-- Sort
-- Styling
-- Profile Comparisons (if we have time)
-- Add Favicon
-- Find New Fonts For HomePage
-
-###DAY03
-- Sort Filters Bugs
-- Create Comparisons/top Trumps
-
-Review
-The project went well, most of the data in the API was fairly easy to get a hold of once we got used to pulling it through. I got frustrated at times as i'd find myself getting a function almost completely working and then spend hours trying to resolves the errors to the point where I would throw away the whole code and start again. Alex was very helpful in fault finding as he only focused on one problem at a time.
-
-We sadly couldn't get the top trumps working, we were very close thanks to Alara/Jack help but we ran out of time. Future developments to improve would be, increased styling maybe even an annoying superhero theme in the background. A top trumps game where you could save the character you like and randomly generate opponents from the index where you could battle them using a stat comparison. Some of the data was missing on some profiles so it would be good to update them if we had access to back end. 
+Project Overview
+Brief
+Timeframe
+Deploy Link
+Technologies Used
+Instructions for use.
+Planning
+Build
+Bugs
+Challenges
+Wins & Learning
+Areas For Future Development
 
 
+Project Overview
 
-# ![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png) GA London React Template
+Heroes & Villains Database is the title for my second project of General Assembly software engineering immersive. The function of this front end project is for the user to search for rare and unusual superheroes or villains across a wide range of publishers. There was no artistic guidance for this project in terms of cloning an existing website, we used the Bulma framework and created our styling. This 48-hour project was done in collaboration with Alex Chan.
 
-## Using NPM
+Project Brief 
 
-`npm run start` or `npm run dev`  to run the development server
+Consume a public API.
+Work in pairs.
+Have multiple components.
+The app can have a router - with several “pages”, this is up to your discretion and if it makes sense for your project.
+Include wireframes that you designed before building the app.
+Deploy online and be accessible to the public.
 
-`npm run build` to create a build directory
+Time frame
 
-## Using Yarn
+48 hours
 
-`yarn start` or `yarn dev`  to run the development server
+Deployment
 
-`yarn build` to create a build directory
+Link here
 
-### ⚠️
+Technologies Used
 
-To prevent the `failed-to-compile` issue for linter errors like `no-unsed-vars`, rename the `.env.example` to `.env` and restart your development server. Note this will only change the behaviour of certain linter errors to now be warnings, and is added just to allow your code to compile in development. These errors should still be fixed and other errors will still result in the code being unable to compile
+HTML
+CSS
+Bulma
+JavaScript
+React
+Axios
+React-Router-Dom
+Git
+GitHub
+Excalidraw (planning)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Planning
+
+One of the key factors we contended with when planning was, 48 hours is a very short amount of time to build a front end, especially when we were only 5 or 6 weeks into coding. Before we drew up our Excalidraw wireframe the first task was to find a “good” public API so we could request data to the front end. By “good”, the main things I was looking at was:
+
+How accessible is the data?
+Are there paywalls or limited to requests?
+Is there a large data set?
+Is the data interesting so we can make a project out of it?
+What is the quality of the documentation like on the public API?
+
+After hours of searching, we found a Super Hero Database
+
+When planning how the front end would operate, we designed the function of each page and created some stretch goals if we had time. 
+
+The main pages we wanted to focus on in this project were: Homepage, Index Page, Show Page and as a stretch goal a Compare Stats page. The RESTful routes were displayed in the documentation, we would need to use the “.get” all, and “.get” single request.
+
+Another feature we wanted to use was filtering the data so that the user can sort the information by Publisher, Alignment or simply type the character's name in the search box. You can see more about the planning process in the link to the Excalidraw or below.
+
+
+The Build
+
+API Request
+
+This is the API page where the get requests were refactored too. “getALLCharacters” is used for the index all page and “getSingleCharacter” is used for the superheroes show page. The main difference between these requests is the URL, the “getSingleCharacter” uses the character “/id” the URL whereas “getAllCharacters” uses “/all”. This was all written in the RESTful API documentation.
+
+
+
+Filtering functions
+
+There are hundreds of characters, so we created a filter where you can select the filter value and it will populate the screen superheroes according to their alignment, publisher or other characteristics. 
+
+
+
+Cards
+
+When displaying the information on the index page, I created cards so that the information can be neatly displayed. With conditional rendering on Bulma, we allowed 5 cards for wide monitors and 3 cards in mobile view. Bulma is really simple when applying conditional styling to code in comparison to CSS/ SASS.
+
+
+
+
+Bugs
+
+One bug which we didn’t account for is that due to it being a public API, some of the data gets removed or doesn’t exist anymore. So it appears like the search functions and filtering options do not work on the index page when in fact it's just a lack of data. A good resolution of this would be to put in an error if zero results are found. 
+
+Challenges
+
+Working in a pair was challenging at the start as it was strange both dividing up the work responsibilities. But after a while, we got used to both working on separate areas of the code and helping each other out when we got stuck. 
+
+It was challenging getting the filters working right, it was the first time I’d tried to filter data outside of the small workshop exercises we carried out. 
+
+Wins & Learning
+
+A win for me was that we got a working APP deployed with all of our MVP goals implemented. This was tough to do considering I had only been coding for six weeks and had 48 hours to complete the project. 
+
+The key learning for me in this project was styling with Bulma. Bulma is easy to use for positioning pictures and creating buttons. This was the first styling framework I have used,  In some aspects, I prefer the freedom and mobility of using CSS. However, due to only being a 48-hour project Bulma did help in styling very quickly.
+
+Area For Future Development
+
+We tried to create a ‘Top Trumps’ style game where you could fight stats between two selected cards. We got close to having this code working but couldn’t finish it in 48 hours. I’d like to develop this in the future. 
+
+
 
