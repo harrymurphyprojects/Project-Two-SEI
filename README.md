@@ -16,7 +16,7 @@
 * Wins & Learning
 * Areas For Future Development
 
-<img src="https://i.imgur.com/nQBrRZc.png" width="600" height="600" />
+<img src="https://i.imgur.com/nQBrRZc.png" width="900" height="600" />
 
 ## Project Overview ##
 
@@ -70,7 +70,7 @@ The main pages we wanted to focus on in this project were: Homepage, Index Page,
 
 Another feature we wanted to use was filtering the data so that the user can sort the information by Publisher, Alignment or simply type the character's name in the search box. You can see more about the planning process in the link to the Excalidraw or below.
 
-<img src="https://i.imgur.com/ZQZkDAZ.png" width="600" height="200" />
+<img src="https://i.imgur.com/ZQZkDAZ.png" width="900" height="600" />
 
 ## The Build ## 
 
