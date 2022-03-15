@@ -16,7 +16,7 @@
 * Wins & Learning
 * Areas For Future Development
 
-<img src="https://i.imgur.com/nQBrRZc.png" width="600" height="200" />
+<img src="https://i.imgur.com/nQBrRZc.png" width="600" height="600" />
 
 ## Project Overview ##
 
@@ -84,14 +84,14 @@ Filtering functions
 
 There are hundreds of characters, so we created a filter where you can select the filter value and it will populate the screen superheroes according to their alignment, publisher or other characteristics. 
 
-<img src="https://i.imgur.com/vIh97WI.png" width="600" height="200" />
+<img src="https://i.imgur.com/vIh97WI.png" width="700" height="200" />
 
 Cards
 
 When displaying the information on the index page, I created cards so that the information can be neatly displayed. With conditional rendering on Bulma, we allowed 5 cards for wide monitors and 3 cards in mobile view. Bulma is really simple when applying conditional styling to code in comparison to CSS/ SASS.
 
-<img src="https://i.imgur.com/vjU80TL.png" width="600" height="200" />
-<img src="https://i.imgur.com/XrxfgZ5.png" width="600" height="200" />
+<img src="https://i.imgur.com/vjU80TL.png" width="600" height="300" />
+<img src="https://i.imgur.com/XrxfgZ5.png" width="600" height="700" />
 
 ## Bugs ## 
 
