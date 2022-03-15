@@ -16,7 +16,7 @@
 * Wins & Learning
 * Areas For Future Development
 
-<img src="https://i.imgur.com/BGbXObF.png" width="600" height="200" />
+<img src="https://i.imgur.com/nQBrRZc.png" width="600" height="200" />
 
 ## Project Overview ##
 
@@ -37,7 +37,7 @@ Heroes & Villains Database is the title for my second project of General Assembl
 
 ## Deployment ## 
 
-Link [**here**](https://harrymurphyprojects.github.io/SEI60-Project-1/ "here")
+Link [**here**](https://kind-kirch-95c8ba.netlify.app/characters "here")
 
 ## Technologies Used ## 
 
@@ -70,7 +70,7 @@ The main pages we wanted to focus on in this project were: Homepage, Index Page,
 
 Another feature we wanted to use was filtering the data so that the user can sort the information by Publisher, Alignment or simply type the character's name in the search box. You can see more about the planning process in the link to the Excalidraw or below.
 
-<img src="https://i.imgur.com/BGbXObF.png" width="600" height="200" />
+<img src="https://i.imgur.com/ZQZkDAZ.png" width="600" height="200" />
 
 ## The Build ## 
 
@@ -78,20 +78,20 @@ API Request
 
 This is the API page where the get requests were refactored too. “getALLCharacters” is used for the index all page and “getSingleCharacter” is used for the superheroes show page. The main difference between these requests is the URL, the “getSingleCharacter” uses the character “/id” the URL whereas “getAllCharacters” uses “/all”. This was all written in the RESTful API documentation.
 
-<img src="https://i.imgur.com/BGbXObF.png" width="600" height="200" />
+<img src="https://i.imgur.com/kwSi6TF.png" width="600" height="200" />
 
 Filtering functions 
 
 There are hundreds of characters, so we created a filter where you can select the filter value and it will populate the screen superheroes according to their alignment, publisher or other characteristics. 
 
-<img src="https://i.imgur.com/BGbXObF.png" width="600" height="200" />
+<img src="https://i.imgur.com/vIh97WI.png" width="600" height="200" />
 
 Cards
 
 When displaying the information on the index page, I created cards so that the information can be neatly displayed. With conditional rendering on Bulma, we allowed 5 cards for wide monitors and 3 cards in mobile view. Bulma is really simple when applying conditional styling to code in comparison to CSS/ SASS.
 
-<img src="https://i.imgur.com/BGbXObF.png" width="600" height="200" />
-<img src="https://i.imgur.com/BGbXObF.png" width="600" height="200" />
+<img src="https://i.imgur.com/vjU80TL.png" width="600" height="200" />
+<img src="https://i.imgur.com/XrxfgZ5.png" width="600" height="200" />
 
 ## Bugs ## 
 
